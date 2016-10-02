@@ -1,20 +1,22 @@
 ---
-layout: newpost
+layout: post
 title: Super awesome test post
-categories: stuff
-image1: /assets/testimg1.png
-excerpt_separator: <!--more-->
+date: 2016-09-23
+categories: stuff new
+image: /assets/testimg1.png
 ---
 
-Bacon ipsum dolor amet tenderloin cupim exercitation sint capicola. Sirloin cillum nostrud, short loin jowl pancetta alcatra pork laboris chicken turkey aliqua. <!--more--> Ham hock beef ribs reprehenderit, id enim duis cupidatat et tongue dolor. Ut tenderloin ut enim ground round. Proident tongue cupidatat qui dolore, est jowl t-bone hamburger alcatra flank ut spare ribs. 
+Bacon ipsum dolor amet tenderloin cupim exercitation sint capicola. Sirloin cillum nostrud, short loin jowl pancetta alcatra pork laboris chicken turkey aliqua. Ham hock beef ribs reprehenderit, id enim duis cupidatat et tongue dolor. Ut tenderloin ut enim ground round. Proident tongue cupidatat qui dolore, est jowl t-bone hamburger alcatra flank ut spare ribs.
+
+
 Veniam shank ullamco occaecat, short ribs turkey eu ad. Bacon ipsum dolor amet tenderloin cupim exercitation sint capicola. Sirloin cillum nostrud, short loin jowl pancetta alcatra pork laboris chicken turkey aliqua. Ham hock beef ribs reprehenderit, id enim duis cupidatat et tongue dolor. Ut tenderloin ut enim ground round. Proident tongue cupidatat qui dolore, est jowl t-bone hamburger alcatra flank ut spare ribs. Veniam shank ullamco occaecat, short ribs turkey eu ad.
 
-This is a list:
+###This is a list:
 
 - Hello
 - How Are you?
 - Bye
 
-{% gist luis-agm/3e498b74e32bb14df35b4da48776fa39 %}{: .}
+{% gist luis-agm/3e498b74e32bb14df35b4da48776fa39 %}
 
 <!-- ![Super awesome test image forever](/assets/testimg1.png){: .stuff #testImg} -->

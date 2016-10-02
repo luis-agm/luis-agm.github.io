@@ -1,0 +1,10 @@
+---
+layout: newpost
+title: "Test Post 3"
+categories: stuff
+image: /assets/testimg1.png
+excerpt_separator: <!--more-->
+---
+
+Bacon ipsum dolor amet tenderloin cupim exercitation sint capicola. Sirloin cillum nostrud, short loin jowl pancetta alcatra pork laboris chicken turkey aliqua. <!--more--> Ham hock beef ribs reprehenderit, id enim duis cupidatat et tongue dolor. Ut tenderloin ut enim ground round. Proident tongue cupidatat qui dolore, est jowl t-bone hamburger alcatra flank ut spare ribs. 
+Veniam shank ullamco occaecat, short ribs turkey eu ad. Bacon ipsum dolor amet tenderloin cupim exercitation sint capicola. Sirloin cillum nostrud, short loin jowl pancetta alcatra pork laboris chicken turkey aliqua. Ham hock beef ribs reprehenderit, id enim duis cupidatat et tongue dolor. Ut tenderloin ut enim ground round. Proident tongue cupidatat qui dolore, est jowl t-bone hamburger alcatra flank ut spare ribs. Veniam shank ullamco occaecat, short ribs turkey eu ad.

@@ -1,0 +1,43 @@
+.featured-post {
+	
+	padding-left: 5px;
+	padding-right: 5px;
+
+	.featured-preview {
+
+		padding-top: 25px;
+		background-color: #D4D4D4;
+	 	box-shadow: 4px 4px 5px #888888;
+		height: 350px;		
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		a {
+
+		color: #767676;
+
+		}
+
+		.featured-title: {
+			color: #767676;
+			font-family: "Arial", "Helvetica", sans-serif;
+		}
+
+		.featured-img {
+			width: 100%;
+
+		}
+
+		.featured-excerpt {
+			text-align: justify;
+			text-overflow: ellipsis;
+		}
+
+
+	}
+
+}
+
+#featured-container {
+
+}
