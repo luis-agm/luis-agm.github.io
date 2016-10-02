@@ -1,11 +1,11 @@
+$post-title-color: #5B5B5B;
+$spacing-unit:     30px;
+
 .featured-post {
 	
-	padding-left: 5px;
-	padding-right: 5px;
-
 	.featured-preview {
 
-		padding-top: 25px;
+		padding-top: $spacing-unit;
 		background-color: #D4D4D4;
 	 	box-shadow: 4px 4px 5px #888888;
 		height: 350px;		
@@ -14,7 +14,7 @@
 
 		a {
 
-		color: #767676;
+		color: $post-title-color;
 
 		}
 
@@ -39,5 +39,9 @@
 }
 
 #featured-container {
+	margin-bottom: $spacing-unit;
+}
 
+.subpost-title a {
+	color: $post-title-color;
 }
