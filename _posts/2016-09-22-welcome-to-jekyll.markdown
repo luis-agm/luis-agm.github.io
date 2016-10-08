@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-09-22 17:51:35 -0400
-categories: jekyll update
+categories: balls
 image: /assets/testimg1.png
 ---
 

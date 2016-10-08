@@ -1,5 +1,6 @@
 $post-title-color: #5B5B5B;
 $spacing-unit:     30px;
+$content-width:    1024px;
 
 .featured-post {
 	
@@ -42,6 +43,28 @@ $spacing-unit:     30px;
 	margin-bottom: $spacing-unit;
 }
 
+#featured-wrapper {
+	width: 100%;
+	background-color: #4C4C4C;
+	padding: 30px 0;
+}
+
 .subpost-title a {
 	color: $post-title-color;
+}
+
+.page-content.home {
+	width: 100%;
+	padding: 0px;
+
+	.wrapper {
+		max-width: none;
+		padding: 0px;
+	}
+}
+
+#sub-posts {
+	max-width: calc(  #{$content-width} - (  #{$spacing-unit} * 2) );
+	margin: auto;
+	padding: 10px;
 }

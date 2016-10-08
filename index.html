@@ -1,42 +1,44 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
-
-  <div class="row" id="featured-container">
-    {% for post in site.posts limit: 3 %}
-    <div class="small-12 medium-4 columns featured-post">
-      <div class="featured-preview">
-        <div class="small-12 columns">
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="featured-title">{{ post.title }}</h2>
-          </a>      
-        </div>
-        <div class="small-12 columns">
-          <img class="featured-img" src="{{ post.image }}" align="left" >      
-        </div>
-        <div class="small-12 columns">
-          <p> {{ post.excerpt }} </p>
-        </div>
-      </div>
+  <div id="featured-wrapper">
+    <div class="row" id="featured-container">
+      {% for post in site.posts limit: 3 %}
+          <div class="small-12 medium-4 columns featured-post">
+            <div class="featured-preview">
+              <div class="small-12 columns">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <h2 class="featured-title">{{ post.title }}</h2>
+                </a>      
+              </div>
+              <div class="small-12 columns">
+                <img class="featured-img" src="{{ post.image }}" align="left" >      
+              </div>
+              <div class="small-12 columns">
+                <p> {{ post.excerpt }} </p>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
-  <ul class="post-list">
-    {% for post in site.posts offset: 3 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div id="sub-posts">
+    <ul class="post-list">
+      {% for post in site.posts offset: 3 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2 class="subpost-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+          <h2 class="subpost-title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h2>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  
 </div>
